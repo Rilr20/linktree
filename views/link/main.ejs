@@ -1,0 +1,16 @@
+<%- include("../partials/header", {title: title}) %>
+
+
+<div class="link-container">
+    <% links.forEach(function(link) { %>
+        <div class="link-div">
+            <div>
+                <a href="<%= link.url %>">
+                    <%= link.name %>
+                </a>
+            </div>
+        </div>
+    <% }); %>
+</div>
+
+<%- include("../partials/footer") %>
