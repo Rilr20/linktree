@@ -8,7 +8,7 @@ app.set("view engine", "ejs");
 app.get('/', (req, res) => {
     let data = {
         //all: await eshop.getAllProducts(),
-        title: "Eshop | About",
+        title: "Links 'n' Stuff",
         links: [
             {
                 name: "Steam",
